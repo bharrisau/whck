@@ -1,0 +1,39 @@
+{
+  documentation: "http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [7, "VDD", "power", "l"]
+      [15, "VDD", "power", "l"]
+      [18, "VDD", "power", "l"]
+      [1, "CE", "io", "r"]
+      [2, "~CS", "power", "r"]
+      [3, "SCK", "io", "r"]
+      [4, "MOSI", "io", "r"]
+      [5, "MISO", "power", "r"]
+      [6, "IRQ", "io", "r"]
+      [9, "XOUT", "io", "r"]
+      [10, "XIN", "io", "r"]
+      [19, "DVDD", "supply", "r"]
+      [12, "ANT1", "io", "l"]
+      [13, "ANT2", "io", "l"]
+      [11, "VDD_PA", "supply", "l"]
+      [16, "IREF", "io", "l"]
+      [8, "GND", "power", "n"]
+      [14, "GND", "power", "n"]
+      [17, "GND", "power", "n"]
+      [20, "GND", "power", "n"] 
+      [21, "PAD", "power", "r"]     
+    ]
+  package:
+    qfn:
+      pins: 20
+      A: [0.95, 0.8]
+      D: [4.1, 3.9]
+      E: [4.1, 3.9]
+      D2: [2.7, 2.5]
+      E2: [2.7, 2.5]
+      e: 0.5
+      b: [0.3, 0.18]
+      L: [0.45, 0.35]
+}

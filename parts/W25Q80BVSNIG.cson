@@ -1,0 +1,25 @@
+{
+  documentation: "http://www.winbond.com/NR/rdonlyres/4D2BF674-7427-4FC8-AEF0-1A534DF74F16/0/W25Q80BV.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [8, "Vin", "power", "l"]
+      [4, "GND", "power", "n"]
+      [1, "~CS", "in", "l"]
+      [6, "SCK", "supply", "r"]
+      [5, "MOSI/D0", "in", "r"]
+      [2, "MISO/D1", "out", "r"]
+      [3, "~WP~/D2", "io", "l"]
+      [7, "~HOLD~/D3", "io", "l"]
+    ]
+  package:
+    sop:
+      pins: 8
+      A: [2.16, 1.75]
+      D: [5.38, 5.18]
+      E: [5.38, 5.18]
+      E1: [8.1, 7.7]
+      e: 1.27
+      b: [0.48, 0.35]
+      L: [0.8, 0.5]
+}
